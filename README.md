@@ -41,9 +41,13 @@ Fallout 2와 Olympus 2207 원본 모드는 직접 준비해야 합니다.
 3. 이 저장소의 **Releases** 페이지에서 최신 한국어 번역 패치를 다운로드합니다.
 4. 압축을 해제합니다.
 5. 압축 해제한 한국어 번역 파일을 Olympus 2207 설치 폴더에 덮어씌웁니다.
+   - 배포물에는 한글 Sfall `ddraw.dll`, `LangFont.ini`, `fonts` 폴더가 포함되어 있습니다.
 6. Olympus 2207 설치 폴더에 있는 `olympus.cfg` 파일을 메모장 등으로 엽니다.
 7. `[system]` 항목의 `language` 값을 아래와 같이 수정합니다.
 
 ```ini
 [system]
 language=korean
+```
+
+`olympus.cfg`의 다른 값과 기존 `ddraw.ini`, `sfall.dat`는 유지하십시오. 이미 `language=` 줄이 있다면 새 줄을 추가하지 말고 그 값만 변경합니다.
