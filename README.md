@@ -1,53 +1,35 @@
-# Olympus 2207 한국어 번역 패치
+# 올림푸스 2207 한국어 번역 — 공통 출력 엔진 방식
 
-Fallout 2 대형 토털 컨버전 모드 **Olympus 2207**의 한국어 번역 패치입니다.
+기준: **Olympus 2207 1.2 기존 설치본**. 이번 변경은 기존 번역의 출력 방식 전환이며 원본 모드 버전 업그레이드가 아니다.
 
-Olympus 2207은 Fallout 2 엔진을 기반으로 제작된 독립적인 대형 모드입니다.  
-본 패치는 Olympus 2207의 대사, 아이템 설명, 퀘스트 문구, UI 텍스트 등을 한국어로 플레이할 수 있도록 수정한 비공식 팬 번역 자료입니다.
+한국어 번역 데이터는 이 저장소에서, 출력 모듈·글꼴·설치 도구는 [Fallout2 Korean Text Engine](https://github.com/munument1/Fallout2-Korean-Text-Engine)에서 관리한다. 한국어로 수정한 sfall `ddraw.dll`을 덮어쓰는 방식에서 공식 sfall과 별도 한국어 모듈을 사용하는 방식으로 전환한다.
 
-> 본 자료는 비공식 한국어 번역 패치입니다.  
-> Fallout 2 원본 게임 파일과 Olympus 2207 원본 모드는 포함되어 있지 않습니다.
+## 현재 상태
 
----
+공식 sfall 4.5.1과 별도 한국어 출력 모듈로 기존 설치본의 선택 화면을 확인했다. 전체 UI·장시간 플레이 또는 미래 sfall 버전의 검증을 뜻하지 않는다.
 
-## 번역 범위
+기존 릴리스와 태그는 보존한다. 새 방식은 이 PR의 구성과 GitHub Actions에서 생성한 `korean-classic-data` 산출물을 기준으로 확인한다. 새 방식의 정식 릴리스가 발행됐다고 표시하지 않는다.
 
-- 대사
-- 퀘스트 관련 문장
-- 아이템 / 무기 / 방어구 설명
-- UI 및 시스템 문구
-- 일부 인명, 지명, 세력명
+## 설치
 
-※ 이미지에 포함된 글자, 일부 엔진 내부 문구, 외부 실행 파일에서 표시되는 문구는 번역되지 않았을 수 있습니다.
+1. 위 기준의 원본 모드를 별도 게임 복사본에 설치한다. 원본 모드의 스크립트·설정·DAT를 유지한다.
+2. 공식 sfall 4.5.1을 해당 모드에 준비한다. 기존 한국어 패치의 `ddraw.dll`·`LangFont.ini`를 새 번역 ZIP에서 복사하지 않는다.
+3. [공통 엔진 설치 안내](https://github.com/munument1/Fallout2-Korean-Text-Engine#설치)를 따른다. 프로필은 `olympus`이다.
+4. 이 저장소의 새 방식 번역 ZIP을 **실제 모드 실행 파일이 있는 폴더**에 적용한다. 에투라면 Fallout1in2 폴더다. 번역 ZIP에는 엔진 DLL·EXE·모드 스크립트·전체 CFG를 넣지 않는다.
+5. `olympus.cfg`에서 `[system] language=korean`을 사용한다. 다른 설정은 유지한다.
 
----
+[모드별 설치와 메뉴 설정](docs/NEW_ENGINE_KO.md).
 
-## 필요 파일
+## 번역 파일과 패키지
 
-이 패치를 사용하려면 아래 파일이 필요합니다.
+기존 MSG의 `{ID}{음성}{본문}` 구조와 번역을 유지한다. CP949 파일을 일괄 재변환하지 않는다. UTF-8 한국어 텍스트가 있으면 클래식 ZIP 생성 시에만 CP949로 엄격 변환한다. 표현할 수 없는 문자는 `?`로 바꾸지 않고 빌드를 중단한다. 원본 파일은 변경하지 않는다.
 
-1. **Fallout 2 원본**
-2. **Olympus 2207 원본 모드**
-3. **Olympus 2207 한국어 번역 패치**
-
-Fallout 2와 Olympus 2207 원본 모드는 직접 준비해야 합니다.
-
----
-
-## 설치 방법
-
-1. Fallout 2를 설치합니다.
-2. Olympus 2207 원본 모드를 설치합니다.
-3. 이 저장소의 **Releases** 페이지에서 최신 한국어 번역 패치를 다운로드합니다.
-4. 압축을 해제합니다.
-5. 압축 해제한 한국어 번역 파일을 Olympus 2207 설치 폴더에 덮어씌웁니다.
-   - 배포물에는 한글 Sfall `ddraw.dll`, `LangFont.ini`, `fonts` 폴더가 포함되어 있습니다.
-6. Olympus 2207 설치 폴더에 있는 `olympus.cfg` 파일을 메모장 등으로 엽니다.
-7. `[system]` 항목의 `language` 값을 아래와 같이 수정합니다.
-
-```ini
-[system]
-language=korean
+```shell
+python tools/build_translation.py --output dist/korean-classic-data.zip
 ```
 
-`olympus.cfg`의 다른 값과 기존 `ddraw.ini`, `sfall.dat`는 유지하십시오. 이미 `language=` 줄이 있다면 새 줄을 추가하지 말고 그 값만 변경합니다.
+패키지에 포함한 파일 해시와 변환 목록은 `translation-manifest.json`에 들어간다. RPU의 mods 내 한국어 폴더는 배포 ZIP에서 data 아래에 합쳐 로드 순서 설정의 누락을 피한다. 게임 데이터의 언어를 중국어나 일본어로 바꾸지 않는다.
+
+## 이전 배포 방식과 크레디트
+
+[이전 안내와 크레디트](docs/LEGACY_INSTALLATION_KO.md)는 이력 확인용이다. 원본 게임·원본 모드 파일은 포함하지 않는다. 기존 번역자와 원본 모드·sfall·글꼴 제작자의 기여를 유지한다.
