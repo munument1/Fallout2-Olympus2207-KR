@@ -1,0 +1,1307 @@
+{
+  "origin": "기존 사용자 한국어 번역 자료",
+  "original_mod_upgraded": false,
+  "runtime_tested": true,
+  "files": [
+    {
+      "path": "PREMADE\\combat.bio",
+      "sha256": "400e807049e0ec3c16d561a69edc930e53a6c7afe45b00960581a6ac4fe1b7c2"
+    },
+    {
+      "path": "PREMADE\\diplomat.bio",
+      "sha256": "afaca75dfb78649425c62e5158f94e2dff658685ff73a9f9283a7c6330f563ce"
+    },
+    {
+      "path": "PREMADE\\stealth.bio",
+      "sha256": "b74e3eac126701faab9d9a2ca7a45e238ef0ac600c587d431a2502d424837e4f"
+    },
+    {
+      "path": "TEXT\\Korean\\credits.txt",
+      "sha256": "20c3d915fe67305ba1f6db2c543200c2983fddb6fa06dcd2cf7b60dbdb470110"
+    },
+    {
+      "path": "TEXT\\Korean\\quotes.txt",
+      "sha256": "0de4d0b771e60f850ac95b2557675c4c65b115388fd547c70ca6769d747346ae"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_2.txt",
+      "sha256": "f3955ae64efd24d46307913af786c853a966edb98e85488b01ab344b313c6a32"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_3.txt",
+      "sha256": "f55465da7ba420e7ba72c8cf2457aed23efe909bd5b97b7e50a535c762f56bd1"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_4.txt",
+      "sha256": "781d8d869f34e39a989caed59ed891b02ccdf91f3c86b76dd10ab31daaf5fd6e"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_5.txt",
+      "sha256": "188b6db89326ec70de3911f78ef0bb85046fd11d7abb14885c9d7563f4ad6345"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_6.txt",
+      "sha256": "d959465c9da9ad72567e275b7a2cd578d9bf9db682f727314547b5520c7ed957"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_7.txt",
+      "sha256": "9209f71d5693e8c499638b1b1619bea969b84ae6605a46917d6da1221b228f2a"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_lv1.txt",
+      "sha256": "b65be10f99e720b785312ec748f27c879ebbcd7328c331da5a465b284d3f1847"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_lv2.txt",
+      "sha256": "a7a2bcf82108da452c8f5bc1c486298510a297873e938931f6d1f71bbb505119"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_lv3.txt",
+      "sha256": "4472a50bcb969fdc00cd41812c0eaded3706f6033ab59d35b85013885e9c5b97"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_lv4.txt",
+      "sha256": "e64107f833e98dbcefb4a0ab60c8aa2a3c2bb825e34a449b2225de74ef819e66"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_lv5.txt",
+      "sha256": "e213beb70ef665818b2b8edd75388b824407387bf156a7cfe36db70593bed0b6"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_lv6.txt",
+      "sha256": "d357e2d0bd11782aa24797687783c56b811fa65d3c64dbbab27b59c86bf6c0c4"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_nwo1.txt",
+      "sha256": "0cddff9ad5ad79b2973d0e9c1abefe796077d2d2d4fa624a23c43a6b90531c39"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_nwo2.txt",
+      "sha256": "79c80b98813714c85b4704fc05972dcc186174d28fcbd9599cbca12c2c6f1a0c"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_nwo3.txt",
+      "sha256": "03f3fc95a698d1962eac5353cd4a43edd43ff09c55d0b9c071145ab5f0dd13c1"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_nwo4.txt",
+      "sha256": "e35125924bdeeee44e202aee176b04a78a072ba306789b3145d79ba46d60f0e7"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_nwo5.txt",
+      "sha256": "d0c37f8f4ea0c4583a3cc6493ca3fba4e93136f18c2273e12fa68d3c9db1d5c4"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_ol1.txt",
+      "sha256": "e1cb4278a9e6289991e1fdfcd44cc884909db229c023d07a54c63c778624880c"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_ol2.txt",
+      "sha256": "a3378f680017606b2e9d383631cdc07cda7a4809325e49ba00f8e3d11c4f079d"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_ol3.txt",
+      "sha256": "47a4e171f71db3bd8e0fee47a8d18dfee9894644c9f40e7f3d3ad9e92c6fbea8"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_ol4.txt",
+      "sha256": "5c00ce2823e326d942071652ad01e1699d809c7c8ef68fb64dfec33e7db5573e"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_ol5.txt",
+      "sha256": "a2681eef16f4accf3ed539b49faf25ae029ae0f41e4820c6138171387edfae2a"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_ol6.txt",
+      "sha256": "6b7b69e302a241750d1e99b49244159a628a3e626db6010bf15da9c574328451"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_pn1.txt",
+      "sha256": "cbd6e277387552c03e632bf81503ef1c953aee0fe4ade6c5001eab2eeb091fd2"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_pn2.txt",
+      "sha256": "f8e1eb5a9879c01f2bb57e1203f6772f2fb2cdd0db74249071471604b6cd128b"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_pn3.txt",
+      "sha256": "300cb74b9fff4a9b9c95b991c81c0c3728ae5ff71a95acc7f500356601ee6d8f"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_pn4.txt",
+      "sha256": "7f2b19c8f79f2ebbcf13a2ecb040fdc19de11d8e11e7e84d32a39482ac88a121"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_pn5.txt",
+      "sha256": "7ed07e26adff3bb5fb8318b896784d1a5ff3366aadc63eb2e983b0b5d4aa6c6c"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rb1.txt",
+      "sha256": "78fedac615703a326ac93e8fe9b1700df2b98d1177c608571b659bf9841558ca"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rb2.txt",
+      "sha256": "255b17db4e0ad1fb0cc8febb0fb4cabcf6f194f102057354e40181e4e7789023"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rb3.txt",
+      "sha256": "aee043ca0d75106f408096eaa2bf255892a161a90a9896f8a4e9a53dade6738b"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rb4.txt",
+      "sha256": "015357777a608c7e54a3dbbfa265bf1e57f03c955bc7c1bace80491e3ce2872d"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rb5.txt",
+      "sha256": "1449c7bfb098a800be482ab840d15646c51e8931655afc804b2f1e762e3835a0"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rb6.txt",
+      "sha256": "fdc33ab27ebe676686e788196be5042158c7415aba357bddbfa58342cdb80f7b"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rd1.txt",
+      "sha256": "f42a1e112f7657b792cca489c2d7321143ee90d437197285dfe673d61b280cfa"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rd2.txt",
+      "sha256": "a2695915c9d8be927a6fddea1bccd43d6f904bd601f60dc218c57b110a301232"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rd3.txt",
+      "sha256": "1caac2f703f027b716c7569a81a6e2c4905d89cba6656c56ed1e61690018d432"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rd4.txt",
+      "sha256": "7b6e43800b2b0c4daf2e24a2c5aee56a866c8683f9e78bbd700c0369d4c230a1"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rd5.txt",
+      "sha256": "7cb2c0ef2e92fdaf93d55b4584702c7fbb174acfeecbe9f5f9a696aa8c0c48a6"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_rd6.txt",
+      "sha256": "766e050c27cf63f1501b8a28b8ac5eedcc5d3febad6087c7e8048e3959d5302c"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj1.txt",
+      "sha256": "d0efbb5992c25168d03a8f8c0fcf6c21209da5efd3d2a5f98d54de937fb58743"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj2.txt",
+      "sha256": "ead6e06e27f201ba7a5af4d35ab5cd6ba62c82b41ca5982118ccda2ca4e90415"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj3.txt",
+      "sha256": "e6fc1f05646f1c6de2c86c57cc03f6361d230c453e95769d271cfc1a3b88e4ba"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj4.txt",
+      "sha256": "8cc018ec9a283355c4624eefa791f8405354f5a621ee28e1bef0c45c47762b93"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj5.txt",
+      "sha256": "e3a00b87a7b1f01daed90adfbea433696af5952e100a4c44f694ec79345d67e1"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj6.txt",
+      "sha256": "be3089957f777ae7d90d40292d907b9f9b1c52ae0b62328b1864ec18895003af"
+    },
+    {
+      "path": "TEXT\\Korean\\CUTS\\nar_sj7.txt",
+      "sha256": "d0a7fa9cb582e2ba44deb267ecec576497e7f4154415c66c67cc7d770982420a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\blcomp.msg",
+      "sha256": "d2523119026e83a0e6110e83a638846aa39e6d383839fa50e5885c38ffb01238"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\blgnrtr.msg",
+      "sha256": "e410a2648da3e9ddb2bebcfbad76aea45aa0892be88592f6480e14940ca06084"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\bllift.msg",
+      "sha256": "84e8f385f030d0ec7b69cf85766fdb050f830eb2234ce7a90c86aa6611ce4d53"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\devtest.msg",
+      "sha256": "62f15dc28dcee3af470aba69726fd490795b407e46876466a238ab0320e55f56"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\frcristy.msg",
+      "sha256": "b7870f5bd31cfc57a9d4581ae451b6ec9eecbb5c90767f570eded1f16bcfa976"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\frfred.msg",
+      "sha256": "3314c7f6f8d026aeebd3ddadfb1f74a8b041babe567d75ba7813a34c3fe0008f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\generic_beast.msg",
+      "sha256": "bb64fe304340650350273edee8573c828e9843c87d63fd1eef736269d2710d2b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\generic_npc.msg",
+      "sha256": "03d3dc7ee89709efd3f0884dbb8b18a931fd1f163975f7c9b67ad78f97f316cb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\generic_personnage.msg",
+      "sha256": "2eada4fc9ed6d2964fe0317028f90c50a75f6a17e96e0b641fd5842efb3bcac9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\generic_scenery.msg",
+      "sha256": "70630e1c6285b4ea4660c74cc8587840d6ad0c0f7f87789635fa2df72fa536a6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\hmstext.msg",
+      "sha256": "77f399c5f98332abfebbc7ac11ffe3481bbf51ecbe6a9eed9e7d8b93294a8017"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\itntbook.msg",
+      "sha256": "1913948f28723f81f0eb792dd7ff515dd4ce8b121ce45e0ad7e5b524e34c8cb5"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ittext.msg",
+      "sha256": "ab59f4ca950e54e9ed8e3092006c480d7313da465aabc713ad3fb70486777144"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvabilin.msg",
+      "sha256": "2f8e4b33e4e57980e1d0584b609a206fff1ad30f95f0701e7c1a751a240341c5"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvboston.msg",
+      "sha256": "d70b270c5286a6a7e05e69d62de659dec995b93f92fba6419c8e8399ca191a11"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvchris.msg",
+      "sha256": "74f8a35038082d5edace0604ed3023304dab37ff02a6f1fe27ca443d40026856"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvclaudi.msg",
+      "sha256": "62b12edce877ddc1c941158608d7a07628ce02320d5fc1e0ea9dbfc6f3331deb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvdallas.msg",
+      "sha256": "042fe6ef8cd509e85903f3db5c048266a66602f6a30dfcf63ec1e5c29aac9797"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvemily.msg",
+      "sha256": "d1705b855afc0ae61ef3b6e02082c64aaeda1f6d8fbbe05ba7aa1e62aee0fc4e"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lveshton.msg",
+      "sha256": "b2cb7135a269fe2b99bf870ee02a7c0657bcd43c75b78596793aefa35ae3c728"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvfoxx.msg",
+      "sha256": "9f768ef70eb991cf42d1c81af25da729244e3ceadd5592bcf1a3a4ffc03ddc58"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvludvig.msg",
+      "sha256": "d9a8c872ff20853f216d3fd826c384f8c223cf9e765e15ecf2c6f9f5ce9317e9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvmignon.msg",
+      "sha256": "92275f490df17c38debf128456b822c5761e48c983694eef36365611b59fc2b6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvoldman.msg",
+      "sha256": "1749df0e66f4161cb849efdf952d7cb5438f288d945e0479691fb3cdb46bc9ba"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvsoup.msg",
+      "sha256": "f3071a1ea9790e89a3c56db5687a2a04d29757ecb575ebe4859a4c8e80d6327e"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvveronk.msg",
+      "sha256": "91a807c6227f4e23ab3e2132dfb7158cab1b715ea55e4e72e86ec90ccb7fc0cb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvvinsen.msg",
+      "sha256": "002d4bffee0c6671def669c0714ed11f541efab45fd1434d014ad11ada1b86d9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzcitzf.msg",
+      "sha256": "20ab149956cf1cae62734c6b532af655a43ee66bb77320da7d7d188adeb805c3"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzcitzm.msg",
+      "sha256": "5c3432bdcdb37b3840c0201fc06e7d54cfebda8f05864793e27579fefd455792"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzctz2f.msg",
+      "sha256": "4de654970e818c60b4eaed67cfe53110e6a060ab3f8c9d39ac42296c02b50401"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzctz2m.msg",
+      "sha256": "5ceb9495e6d02326a46b6c7bcedd2526ffab05f222e7d19db621b9a61a7067c8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzctz3m.msg",
+      "sha256": "04e83c1b0bf39d91fb6dfbe5aebea51940ca3cdce394fe16526037f62a74c3fa"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzcust1.msg",
+      "sha256": "9d9059d8ac9f8cc60b88f5d66602fdc275a558281c8e5bf8bee63a3185b5e54f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzcust2.msg",
+      "sha256": "75a0f6b35a726f59bd2cfb702acae4e76265a4d3ca0ec83c0489601be3cee3b6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzdame.msg",
+      "sha256": "8ab552646528fb2943fdf4892cba2673c230f331479d55090269862f04a4d32d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzfiltr.msg",
+      "sha256": "1eeb8081a4924d9bd9563c34d993825c0a2f7abcabc51f3932e67b21911c25e1"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzmistr.msg",
+      "sha256": "10ec3665f2d4f620ff8ddea433f7909b08e137a7b341dc40a836d68de81ddab4"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\lvzmnstr.msg",
+      "sha256": "a76cb8b04e1ae4f1290ee3e9ddca8aad83ddb8bb804f45ace904319451d833a8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwarsen.msg",
+      "sha256": "86f2f573561c7bde6805f2552a24d9618a258865f581ab95fbd64dde27307ac5"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwbak.msg",
+      "sha256": "310cd8370f658015b72e5e5fd8bc98cfd704785515fd1be336457c6f5340ec62"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwblanka.msg",
+      "sha256": "f55e05d2a74f666181a021d73f1fc94779f6303ed89f030608169261e234977f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwdan.msg",
+      "sha256": "9317cbf0718ec1928b5b41d4281e87ef55d8a61802977ad54dc6915f79b9e369"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwdaniel.msg",
+      "sha256": "0d359ede24243dff6ccb3ec9d52e95a598cc198005694e8c623b7f27891034a4"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwflint.msg",
+      "sha256": "3f1a654f784a70b85b678f04f49982cd993d522a2abe732331e3c520e5ad91c1"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwginder.msg",
+      "sha256": "1b8469a80d393dc66bd0eea1b78f13c315f18584d091f6aebd6c8e99f8218cdd"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwhenry.msg",
+      "sha256": "161f24787d011a92c3b8b491ba2fcfa119bd57d8f92ae730cc0496cd9a428c0a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwhuan.msg",
+      "sha256": "85e783b452618f6507d972c4e3a7e2ea2b2e7ca77bd5b8e5b928b150d254f9ed"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwlohmat.msg",
+      "sha256": "32d1c1246637ca8376e553b5cd8a2a770c08a66ae3d303f769d68bc6b24f7bc0"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwlucy.msg",
+      "sha256": "4636c5a2d4262b7947f701497a7c247a19622caa7ca258ca422d942545bf4143"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwmarisa.msg",
+      "sha256": "30c6acb311a8ac7841b08fba63ca3016388a8341b654de840d9d84e1a0b1e46d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwmark.msg",
+      "sha256": "9d6b64622d9afd3c857aa764e18b0172d1352b533213571a9c09f585f8d2df56"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwmat.msg",
+      "sha256": "222b92608f22d4f0d1456ea3838e5433b5924778aacf3309f612650d6b7985d8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwowen.msg",
+      "sha256": "0c5cd13c941276993010d30c9a2bb62f3fb946f39f1a21df142b9673bcd11be0"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwphilip.msg",
+      "sha256": "b9d425131d50ec5e88d1ea6c2e6786107633e1f38799e45655bd766201e172a5"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwsam.msg",
+      "sha256": "fffeffc2a334cd44f16139eabc08aee24dfd8c1347b7d14be6c6b1b54b4d5cd9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwsat.msg",
+      "sha256": "d668846683568eac5e16f6f82e766c9278f39e437ed47697b83a070b89284d27"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwsayren.msg",
+      "sha256": "ba6ebf802be09c218be81ffbd51c3c9aafbe8a24ded5fd2da8c4fc836401ea7a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwskit.msg",
+      "sha256": "9a7d1d3a5d9179db641a8976cc1871372d349eedaed070500fcb1251e54e8b48"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwxbrst.msg",
+      "sha256": "ede2858c66eef389afe1510fccac998272fd11f06fd79dbe1314c16c7bc85106"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwxvdro.msg",
+      "sha256": "3658f59f931eebf4918c34953ee0d0ed5d4e5aacce7ac10853b64aa2773fffd2"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzchmra.msg",
+      "sha256": "be62f12e98edf33a043303557630c5af7cce9e3b64b4c2e2076dc252b4598c55"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzcitzf.msg",
+      "sha256": "5568ba691339bb17febcd970b2be4dd2428dc22bec4ee1bef4900b813f1fe93a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzcitzm.msg",
+      "sha256": "a82745ef02e880c578cce24bd149cf4c4cd0ed7493f5a2c0ba563b045d323d78"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzfermf.msg",
+      "sha256": "446c523e0718b91942194f408196ea13813bd433db463b94368b3d43955423ee"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzfermm.msg",
+      "sha256": "8e883db64de2f448cebdfb13c9cc65978103a1067ec00935b2844cd069424569"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzgrdf.msg",
+      "sha256": "9fd72d7b2f1ce5054f66c92dab6576c21dd56118f30e92da3ad8d445d76b7438"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzgrdm.msg",
+      "sha256": "8ff7f57d99851fa873a8c466a6159a3c4d6a546e17a2b0588cecaae918a72abb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwztrdmt.msg",
+      "sha256": "d6300358cc172a3863f2e3b1f7e7f4b81fe0582a01884165e28abaa543975ecb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwztrdst.msg",
+      "sha256": "bb2c7064b04c01c063e5d49d5ee1743623e4e0f23eb0c136b7df1c244672bec6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\nwzweak.msg",
+      "sha256": "eaa9efa0020e528862308536bd11ba3e14fa3247d97d2d49fa6e396b0c95cda1"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oaelder.msg",
+      "sha256": "5986a673f2b2b5ebcd7cee32e1266694edfbe953d72b0a49f51dcf96a64555ce"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oafemale.msg",
+      "sha256": "224ccb7d50eba70050111f830e86bd4b4c692b2770d91f1e42ee95c4a323f601"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oaguard.msg",
+      "sha256": "4bfcb0d4d98d25028172be56bdfc5ce248b42b79361c6392d201fbea29ef483b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oakhala.msg",
+      "sha256": "106be0f88d5af1ac6ea957fb53de0f36f7154dad8deaf7d909e154a427573080"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oaklumk.msg",
+      "sha256": "be415d41a726a4a10786e622f7d6ba75b2dc5f2abd6281ff532189a7bdeb889b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oamale.msg",
+      "sha256": "7583c24856e7db5d33f0117f55fc9c6541f9382336c333ed58f7a78678ff455f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oaptuna.msg",
+      "sha256": "bff9cc209a1f577ecdce97d48fc1c6c757f8538b2101440dd670949d7e203747"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oawarior.msg",
+      "sha256": "463df55c186aff5fd3d664378e3ebdf401c456ac54e44a6fb2d03b1113836a85"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\obj_dude.msg",
+      "sha256": "0351b90b2987c4153c509755244f8cd6b9dca65def2e83819e2ede7f8571296a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olboss.msg",
+      "sha256": "6005f761c83b6180396b00907ea067e9f0aef17cd89fd65d0ed5548f5de37d17"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olbtriss.msg",
+      "sha256": "3839e5990a8f9b2d34fedfa09bd5e96adc496b1a3e4c4f8f58497ad40555b429"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olcrank.msg",
+      "sha256": "693c7c1bb4cfe1b8d76270c4ad67dbf142a0335ecd37aeab867a32c5ec226769"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oldeus.msg",
+      "sha256": "f10a71e4dff4909d27899f51da05f9220d1e2cec51e656895bbcc49a25e81c0f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oldick.msg",
+      "sha256": "bbec5b371e3590546212644b40f51bf006f62bf942ef3be7fbbd3a66e0d68ddf"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olgrey.msg",
+      "sha256": "a4e060eeedbe327eba084ee3ce7a40fd581fdefa0439dcd2e6e4d9345f419a5d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oljoke.msg",
+      "sha256": "6aee74c524dad0ae8de9019c74fd42cac9efbe40d9f311924d8e0db90d6ce521"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olkelly.msg",
+      "sha256": "0a664916ca9172e76f40e19c9b83230702fed8311b3b14b09520ad722c709db3"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olkirk.msg",
+      "sha256": "5c61559324f34e253fff66110725a5050f35060599eed1135e6ae05eba0b3769"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olmoro.msg",
+      "sha256": "9e017f525a91086f2115e4e6d694a28dc06039369ec4264824f967cc087e30df"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oln34.msg",
+      "sha256": "c4adbdadf5257c34c70194e2b44762a8b0ddcb2fe65504449782a4c069bf8ab8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olrichrd.msg",
+      "sha256": "29e14e6719fb418631c1ea0ff8e44df6f3a7d51b9b6bd7bc7cc3f959856fc986"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\oltaylor.msg",
+      "sha256": "3d69156a948978ac495551bdbc0e50cdc57696da7bd19d9dd560814734812e8b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olzochk.msg",
+      "sha256": "c10507a7b4406f3b679563672e0535d7e082abd5b7a1f971364ac91ef175176f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olzpost.msg",
+      "sha256": "4fb6ed51e5b5b107b64684772e3b355e6506fbf563e0374dc2665b7145a9012c"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\olzsolpn.msg",
+      "sha256": "7eb1692400a20224345ea667a341a616e0fb07ce4cd063250fcdb782d3c4cae0"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnbono.msg",
+      "sha256": "aabf7d7f0bca98bc322433e8159ce9802f388f903186903bb1b26e8b11f87b9d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pngromus.msg",
+      "sha256": "c22c4b34d91936f8caaf058abc5d3fe731c3b2ca338bc0cb44f55bebdff5380a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnhugo.msg",
+      "sha256": "e652ac2b482b40403387f1b3c823774af97649ab7e5f7f78468edd1e46cb7833"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnjoe.msg",
+      "sha256": "629ed2b5a6535f4cc89cdbb736f78619f4c96163e42de3f4f7dcf0a3a2bf350f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnlily.msg",
+      "sha256": "69fe4fe832f222526b3f71b1cecceef44e33f4757f1bbd6dd43504978bd7d4a6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnmarta.msg",
+      "sha256": "b88a5023b0fc8d7fb58937ee3fd3a3687866cd6131f69ebf3e46b754fdee9706"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnpiter.msg",
+      "sha256": "a379b3d7a43a32991973332e880fddd9d6c2b2c9926a0898c85d7fad21bc2486"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnprisly.msg",
+      "sha256": "8283df8b56babcdcd2ab29a9c140e0e72d5ffbc3967bf2d68bd097fc9e7830da"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnrobin.msg",
+      "sha256": "83d3616610e2407013251140d43ae6de5b88660a3d6c057265ce8d646288bed8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnspouk.msg",
+      "sha256": "280c6454e617a831c2cc2ea9f16cef75a92d8a2e1229a2429814289e4753110f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnxgrve.msg",
+      "sha256": "a97f15cffcdd72913b422d633d582c60dcfd3782d4d215ef34f1eb4c4e4a1a1d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnycont.msg",
+      "sha256": "fe1c14be4b3917dd2f65be68b0dcbd03e113badee1adb7e5ecde49baa6850d10"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzhugo.msg",
+      "sha256": "bf795f00b089e344b41b7c7ca73d1d8c7f5a1877eef34f744328b29fa0225e21"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzman1.msg",
+      "sha256": "5671479fd98dbec94e82645f8ff01a03476dd8dd4ac7af31d90bc0b3b9d87be8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzold.msg",
+      "sha256": "9766ac35c9d4972b573910e98178a7c22dbf4ca8173a4cab45e6bf58adfe9a97"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzslvf1.msg",
+      "sha256": "f1d367fe6f5d2b688342789093eeef8b71dafa200c45ec59dce653f32c765a9e"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzslvm1.msg",
+      "sha256": "648a7f9a0c54d94a98a5cfb79743be1b62dcc8007c19e373cd3e4f4bacfd50a7"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzsrchr.msg",
+      "sha256": "fd3ca6bf65c86984aff2c291b4e097a53793c5326aefbc5807afb8ccc17efa38"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\pnzwmn1.msg",
+      "sha256": "ee6495ad420b729172f226d631179509171630f22675b9b881e51821b8f53772"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ptbekky.msg",
+      "sha256": "e2fa7962ac255740cf3fb46b9e7f1b7fb61ca83412fc040e395b4c0f5f268352"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ptdeaded.msg",
+      "sha256": "02e235fba9cb520d62b69cd9df7032e9ed40117a4c9de7227094dd3d5b0caa6f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ptsunny.msg",
+      "sha256": "76d2378602a5968ce8f383a175376372c6c0f2f2965f062ed82268f55c739b81"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbarench.msg",
+      "sha256": "44c1a8b2cae3dc20a7d79ba877042fbf29d70c61f2ad09feb62c59a20c40f59e"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbbeloch.msg",
+      "sha256": "c40438477fbb3fdd5ae5e81b5c756a3c456b00900e476a7f56c52646ff09d78b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbbrick.msg",
+      "sha256": "6f12b2addff2291a5e4ef3e0b6ec439c767ec53403ae3ce542dd69156e3a0398"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbduglas.msg",
+      "sha256": "981520939ca5716a174cf8ce4fb6692d1cfd759fddde5fcc6b01934537af0d4b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbdzhy.msg",
+      "sha256": "96f79f4dde5005c1fd628c56c35ca7d47a16ccfc45fb5422e1ef6fbfaee32aee"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbfrmgrd.msg",
+      "sha256": "659ba7438e6831a6f2bd0239773be89c84682a2fd5e32b08ae5f9b9641b49724"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbkaban.msg",
+      "sha256": "fad10b629a7035360786767887e7b8c768cdc608a73fba705f1925d82a2c3800"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbkent.msg",
+      "sha256": "785eee84e20aaedda8b5aebe451c5ce05e77590ccf9d6f58b49485528107a382"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rblekar.msg",
+      "sha256": "3ad71324801390bee77c80e5937efd2f4e0d9b048976199f2d19ed4d5aa3f1f7"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rblenny.msg",
+      "sha256": "e2a15cb3b7d6224684e15c11a42669d73e8b1aff164d3e9079e1c13ac5340003"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbnaomy.msg",
+      "sha256": "1cfd55582f0076b3abdd9ae59e1f9a0a6ea26dbca2f6c1eb6aa0edc72bac9a9f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbpastuh.msg",
+      "sha256": "4a9f348ab3ed067dce6c274029564102554034904284603cc15cf338fa8ed93a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzalko.msg",
+      "sha256": "204ddc00337db81b3eabf3e926600eea8bb8385cb862f689a54b2450c4aaa037"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzchldf.msg",
+      "sha256": "ad6cfef51e650f4f1f1bced672402133d3c3bf020eb9debfd9b5d24bef228c5e"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzchldm.msg",
+      "sha256": "48900a1b82128d2f1d2a5e890ea8016488b768697ddecbdf11eab3093782b2a6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzcitzf.msg",
+      "sha256": "f3e901aafc8a30725b4588b910fc5edf8e148c43f0c423151ee6ca0e57fc4004"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzcitzm.msg",
+      "sha256": "636d653372b8332c980f08692161d03f8a4bb77ffe1e359aaaa3b77fd5cdef6d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzcustm.msg",
+      "sha256": "ad906b3bbe2a89fff1b0e869f92c514b80d916aa7e28d1e1aabdebc1636c14d0"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzguard.msg",
+      "sha256": "5441dd4cd5a962baa6915bce209af58a8f1bcbcb9bb9c066239b3c0018a72324"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzmacho.msg",
+      "sha256": "8868ab3340f9988a8d28efc481eb4bc6078877c03d3bdac18bf8afb0a88dd7f9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzpoor.msg",
+      "sha256": "9c3392d479b4f699a859613ca20aed92f7874fff3f65e3d01a0ff203ebe8a2ff"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzprst1.msg",
+      "sha256": "332c9365e2ebf33dc621f5254247c59ef804ef878615431eb8dba880a2e58358"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzprst2.msg",
+      "sha256": "b5b93ce1ce84e5b99b20091a61ced595966883ae7e72eaa6a99f7c50c119d800"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzscntf.msg",
+      "sha256": "f04edf2ad926a5ee27e217d5b2ac9c59c48f958dd759d87c23f0d9de73ea129c"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzscntm.msg",
+      "sha256": "b8dd654f132f01301165558ae0481947586bab4712ec410bde982b3a313b2946"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbztrdr.msg",
+      "sha256": "bd11e80646ba997510f0079075f52486bf5a163fec5a92d90765f0d6dace214d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzweak1.msg",
+      "sha256": "686ccbbdeba0032af07816805638e945ee60fba3dbe227e2238898ffdada208b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\rbzwtchr.msg",
+      "sha256": "bc67b1478b4d82d66bb18d599136272b2f48a14012c75afe910eaf762ff9d04b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\robotron.msg",
+      "sha256": "0c90d72a6a80fd4d5e12f951f63c119e6b49de83ed42d0e7d5cfabbee1b5203a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sangels.msg",
+      "sha256": "179f15ad59cbd68b468d3c839f79a29e71f841515d3261a97d87c43801ec7da8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjbilly.msg",
+      "sha256": "842a28f553d0ac5c913d4f17e9e4baa42286217a306ed5b158dce202d9cafa83"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjcail.msg",
+      "sha256": "7c9a3e06e619efbd22aee5384a33739682023838838fb8890a6151e766277c5c"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjcarl.msg",
+      "sha256": "f15b5db347bba367a324afde07b4b0d56ec8c2a88af7a238621d417f04b780df"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjcasper.msg",
+      "sha256": "55df8f9aa934c24be0b71ec15111d70982f39ed616f460ec1aef72b022a7c382"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjchris.msg",
+      "sha256": "3d684c1d0bed2fc74b047e46d2944d10904bdbfbe994f8fdddc48541d6a798d9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjelybuk.msg",
+      "sha256": "5aa17a1aaadfb4c36b802b2a2487ca31255437d658706cbc8d0e2ae5bf2b261f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjharry.msg",
+      "sha256": "05727d8acf5229411ddd66c228c29bd77389a2b478c12411af5dfbda8a6783a7"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjosvald.msg",
+      "sha256": "da4559113be9aa4801e1aa3212d4a0f70ecc40c3154937f3c6409c0f392ba280"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjscremr.msg",
+      "sha256": "17bb17452e843447ae1959777212cc2df858139bba4d90ab699da8cb21fddb1a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjshiva.msg",
+      "sha256": "cd16466740a6b9db055cf3269a548c0991dbbebbda6ff9ac51769a84f11e589f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjsten.msg",
+      "sha256": "364fa9f410902b10869e39c042b16f5faf5f72509d7c8a15d405b03cead1530c"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjursul.msg",
+      "sha256": "8ad290e0b0063901f32ff1d14bb073d198780c8b6a06a91a12be63e320463e2a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjvins.msg",
+      "sha256": "3a738a9c93f4fe10a6f79dc4340579201377f9582db7a58a6492c383192bd99f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjyely.msg",
+      "sha256": "c1a014bfecd83173f36e59540138d0ae552ac0b7ea7ac1bc5c50983a4339afe3"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjzfigt1.msg",
+      "sha256": "9dba79936ef2f65c98ab6c547504175c5170577049750467d79e05ad52f51be5"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjzpatrl.msg",
+      "sha256": "eeb57f225c015f36b338c9c148efced56f65baaa652cc634dc59eb1cdb48b357"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjzraidr.msg",
+      "sha256": "a90df5af3bce771ff51d04f24d992b7597c292a7ba151ec94849c65fde6dcf1d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjzstnok.msg",
+      "sha256": "6586e0db9c992f6fad4f4658f591017614ab6bace5475fdba6f3b560611192f6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjztrdam.msg",
+      "sha256": "8f22a0c5cbd09b5fbafb88f05414a8250d01ef9c6d44ed88a386ae703fb0a8aa"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjztrdst.msg",
+      "sha256": "c5cf6e5d8d17ffc33561982ac330ab5c5f4aa80033f5b0654fc7f30a4d37b0e5"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjztrdwp.msg",
+      "sha256": "c518b0a2c91493afd7398e0074e0cd62599f690169b28ec962f853cfd6efb374"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sjzwtchr.msg",
+      "sha256": "34adf3e3a8444d41d7f6bc172001afb76070d3c4b2dcffa698ea8e542f989d4b"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\spfretmb.msg",
+      "sha256": "9f5149f0195bb7a2126bbd1006284989cbf78a8bbb5292510a26934cd1cc6ded"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sppirat1.msg",
+      "sha256": "37c75adc4f58dbe6c5ef40a663e639c762e3ffe6ec9252da0871c5b17b5dee1a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\srdboy.msg",
+      "sha256": "c03ee3ec00afba7f6ce32e24d9c4624a1321a029c79d4b13f561664437131c02"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\srdman.msg",
+      "sha256": "8e2110458c2b0ad263c5f75a3edba08f46cadc1877fe86561ddf8df5fb3eac29"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ssxboy.msg",
+      "sha256": "70c31cd81e992d5e30db0cf7ad7f30cea27c70c1f065f8eee8f001c385d22849"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ssxman.msg",
+      "sha256": "95e2455e21a3322322702b109a64bc5bc645cff6986e647a99923fba3f517493"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\standart_critter.msg",
+      "sha256": "3899daf3ebcf61c86867e8d220fdca1a1659b2da64f12f33ec57f1b185b389a2"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\stnkgirl.msg",
+      "sha256": "38ab44f9ffb9df6d2d20bfc4858d260705ad0c9edbdcf89ffbfc1acc6169da3d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\sttext.msg",
+      "sha256": "780e116aea2c3d6214e18e54fc4405eb7fb795cdc6dc15b6f86fb8be1fa03a56"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarboy.msg",
+      "sha256": "fa61b592b2678ad24f5ff7fc889d209e1b079ef1fdda3646eb5fc61121324de7"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarbrook.msg",
+      "sha256": "fc9103309297fd230dee985fa89574a4acd8b3de6f7378a860e73bb520d67539"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarbully.msg",
+      "sha256": "6dddd5dc9615511730b21187ced8ec77fd517077ef5b9cba19bc17fc7a2f3fbf"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarcarol.msg",
+      "sha256": "2efc0de0cb758464981877d0e7468afe9520ee96b01ef00a22e1da411da158e9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tardrpet.msg",
+      "sha256": "0f11b480fa794db72d215d8e37ac96990b01f9b6d8a46db361b13084943e9aaf"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\targirl.msg",
+      "sha256": "1fcfc5944ab59e618473a2d8ae0fcc6ba7a5755ef63693c239e5058a771e0537"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarkatt2.msg",
+      "sha256": "b14dc85d8e5bdc49f49ad6d99b5012c7ccc2e316b6eea00aed9f681b5b7860c7"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarkatt3.msg",
+      "sha256": "108059f2ab940f5a35a503c59fa0db72640cdf2706698683cd1f0e924d882397"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarkatty.msg",
+      "sha256": "6e3f18be4fea985a2faa924a9358cf6f5bd235de5c092e1e78ee1fdeba47d1dd"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarsmity.msg",
+      "sha256": "5e2d4d86ba4a5d0c4c90faf2422e8a48083f5496060eddd36dc86179c86f1b0e"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tarstela.msg",
+      "sha256": "1adcbed9ef75d60d7a727b22d73948cf448447b71762d85c8206106f3f252267"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tbardok.msg",
+      "sha256": "770dfe0a75776e1b5ac6448881a7fed6e59a6c5149ce74f90cb0fc82d9882edc"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tbioslvf.msg",
+      "sha256": "c76c96302746b7e98e1f68d159d0d5e4216519809c45602d1ce5af4875eb2dce"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tbioslvm.msg",
+      "sha256": "26a013a7216bb2a30d19b61ae8f8b6fc6ef2e7844eff247b2e0df3a09ceb2365"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tbrdwall.msg",
+      "sha256": "85ab7d5c0f73fdfc08fdd2032b6ca2dad2f9adcbb22e20f9d22403c00330eed6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tbutcher.msg",
+      "sha256": "2a5e924cdc505553db0e0fa9e2d4c7bab7e62821f00eee05e9c787a7250eb2e0"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tcarol01.msg",
+      "sha256": "2972429f7076444952a2d97e78d6cd88c03cba0be974ef6bbda0a071863ec614"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tdctrpet.msg",
+      "sha256": "c43b27a7b603c582b3ef2fced9e60fcd78b6ae0e3c31c5b555472fb3cdff3159"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tdudbrt2.msg",
+      "sha256": "cdcef689ab13e1350e5393e45326e11fd48e32edf8c7ce0b50434d7e42029868"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tduddad2.msg",
+      "sha256": "51006b98d512b616ff29fa792330377d7ea9a7f39cb2aec72d22e5d5957da774"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tduddad3.msg",
+      "sha256": "90c5a27acc2c20d1ff8ded1b368b90134dcc08fc4786c7ad6c74f6a14db9c4a1"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tdudebrt.msg",
+      "sha256": "b94a55907e06a8f7737189c69c392e2f1b7e58f26135e847e2bde2f6fb882556"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tdudedad.msg",
+      "sha256": "e15125c84b83ed7f782e1b6cd6425ad8b3de5aea944183b7eab0b2f5005785ab"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tdudemom.msg",
+      "sha256": "91b46777ad07005b35ce812abea049be68ac6a5f6cffec574c55793be7e14d8f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tengr3rd.msg",
+      "sha256": "c7ff73e84a68d8495686678f9fa1c43881c7df0abc6fb0f19fe412eac9b9caa6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrd1wlk.msg",
+      "sha256": "e18cec952cfda9e7209678b7daf512693cc9b59215e40c9fa71f7fc80d4a3f22"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrd3rdf.msg",
+      "sha256": "47dac4358fcac18872364b95d6ae0a82dd5fd7077b22ec2f607dc51f91b509f8"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrddead.msg",
+      "sha256": "9992a40d74284d83dde38ea7990dc649a93cdb571fad6b1d698bf868560ba408"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrdqest.msg",
+      "sha256": "060619d46bf0398d16c70662755da3f6c83cf04fc0a9327b52ea1872381d3d43"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrdstnd.msg",
+      "sha256": "80e567bc4a3db4abb5a6d3dcb5d725d8578b53a0f903e73938898288180e6f98"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrdwlk1.msg",
+      "sha256": "cd6c419552fd1b78ce63f510f0824e1f6061d816e6569d83d08a9f097c7fe8fb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgrdwlk2.msg",
+      "sha256": "3f7d1a785f647a384a0e8a47137dd7f7cf3bd4d4d236c52bd283cde6ffb6a122"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgregg3.msg",
+      "sha256": "97cc07efceaa9cef91a0966090d7746f294ecf635ef639a6f6415853cd261f5a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tgregrus.msg",
+      "sha256": "c4fbffed979d52fcf61a6338a0493c2aa9995059a7aec4bbb2acb18489b60f8f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tiptext.msg",
+      "sha256": "55eb2081d00b808a7290699b564727100867f3acca3072fe4dc2ef04f015475a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tkitchen.msg",
+      "sha256": "ceb15e1b091193c3464980191153883342feeb566cbd5cd25b5e5624082562af"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tlavache.msg",
+      "sha256": "e3ff161e3bc9cb8a2fcf095c6b1b55d71f5fc15c10474c4069164c933bcebf37"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\trblock1.msg",
+      "sha256": "d2e5de91627b438dba81b5f288428c79e5184e9e29216970e68e0869a0a9f662"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tsmitty1.msg",
+      "sha256": "2bc49e78d57c694d746c30c15910d1ebce2948e5fa3bc2875d23dd86f53daf16"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\tspkr1st.msg",
+      "sha256": "fb80a26bd4ddc0b3209ecfc28f09f1b9407dc112e37c30bce2996c74fcebe8da"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttchslvf.msg",
+      "sha256": "3c8b07d4c0408cfe7fa34f4b263f68f760a90a574cc7d71209e367f8dbf10148"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttchslvm.msg",
+      "sha256": "a9a37b5f0ac103c88b952414c42b23ce1a86a75af332e23e8e08b79dcbc4a6c9"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttech0fl.msg",
+      "sha256": "25d8427f9f6b22e832a812ffeae3437b6fce50d2fd53e1f7880a91d5038df423"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttech1sf.msg",
+      "sha256": "f003156924486cd88bca6f32d2b5479927c48ed4ef375feaa72baa31933eb12d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttech1sm.msg",
+      "sha256": "bbf82d64a40469bd1f604079a51f74f009c48b2e06269fbb8f0cd8ad54945a76"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttech3rd.msg",
+      "sha256": "13847234e8843d5a70906b3f52db8c77842c1726ae02f47b6f9e8ed117a21689"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\ttillslv.msg",
+      "sha256": "83fb65a49493de9f4aef188da06b46b2185d82b946779c33e89cb3d2297aecf4"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\twatcher.msg",
+      "sha256": "657abc20d0051510c2e5d2cc073c214f1d6f7118a6f08e79618ce5f95c38805f"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\twatr3rd.msg",
+      "sha256": "34d703f90d657d99d313aee930e0f193790300efc3683b4f00a66dc4395ecd75"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\wbcell.msg",
+      "sha256": "0cbf2e531feaf0ea123cc819edb5ae43153efb32a6b0b89d19ebfc1fe5f24a22"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\wbpult.msg",
+      "sha256": "b38cefb518b732e8650a3ede3f257505e3b6654ccd5df77d847266a3dd925393"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\wbsafe.msg",
+      "sha256": "655b1f423da1a50a59d3457559033a858865a8dbe1feadbee1c4d005b3fc8e71"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\xdfndptr.msg",
+      "sha256": "ddb1010bc7c61fd7ef59a7fa93f249ff443b1faf5937a3cd6fcf7695305562f3"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\xlumena.msg",
+      "sha256": "47d0246d20080d07e4e0c2e7f4f0e988b11f74cef80c5c6191d278458ac313bb"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\xrcanibl.msg",
+      "sha256": "abb7661d33b3a19c66a29f323348d41a38b2a6e3fcdd69ad9d6215cc4c017a8d"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\zbezhncf.msg",
+      "sha256": "8fe9ddbd716291b643192e1bb51bc038b89cb984b16a34106603b7ea42e6c1c6"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\zbezhncm.msg",
+      "sha256": "be8a6b5e8c168aae4221f590fe446fb510ecb88cbb0ae2c458d6483d0ccd96a4"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\zgrave.msg",
+      "sha256": "ca480964e75d5d79dafa5710e99a1cf200b070f4cd09ae19a9ac06ba5ecda996"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\zlavache.msg",
+      "sha256": "8b713ec09073beedaf841ad34ad780eda034608b810d34d04a34b79a9c2a08f1"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\znwogrd1.msg",
+      "sha256": "cc59f567c7872f455cca8c81981ebf0b8c02a12a33e7aa7cb2dce899a092539a"
+    },
+    {
+      "path": "TEXT\\Korean\\DIALOG\\znwotrdr.msg",
+      "sha256": "fdc25a2367b4161922400b4f58f09a3e7c2a91c9f06b4bb0640e31a1a572152b"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\cmbatai2.msg",
+      "sha256": "eda0343dacf5b3e3367150caa0ab97f69d7cdea9c255cb2a75735fa9394791dc"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\combat.msg",
+      "sha256": "0c995cdb2d37900bfe2ff484dcab053b843633bf8ce9178a0f869ff446c0ba56"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\combatai.msg",
+      "sha256": "b660bf5c5390df501efa45b2f6a40c55c7b5888d6f231c23d9920b436b86c134"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\custom.msg",
+      "sha256": "f7a35920109408bf76f1d4239cbeeb1fe0ca1ce209b47369a3add993f12e593e"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\dbox.msg",
+      "sha256": "f09922aac182f84d3d335bcd150ece9f7dfe2b3611f4e61b8fa49c0f015d1808"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\editor.msg",
+      "sha256": "67095202fc6f021b8190279daa12861ee7ad09aceeabea26f1f0571f7501db14"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\intrface.msg",
+      "sha256": "0d74c9ec63f7830dd231642a741929b4cecfef813ce4eb6845a334003e1c4663"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\inventry.msg",
+      "sha256": "e83e46dfdea936c4d7304f09320afa58916caf7e4addc37aa66a0cf3d99a9163"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\item.msg",
+      "sha256": "103d0971eb5b8160d5e6e25ba88e4d9c67219b1a8acab5ab46b76d3cebb97311"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\lsgame.msg",
+      "sha256": "0b542d43bf17d3d4fb7f182be37db26a0d97d5584beb16efaab12b62aa67f452"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\map.msg",
+      "sha256": "7250741017731e9d4f574f5994603ef8ef94976d65c17facd2d43baf2afcbc3a"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\misc.msg",
+      "sha256": "6076c0beba9e41c862a50b26bbca65ca4c53633430f7fea981bba590452d70a1"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\options.msg",
+      "sha256": "99d3140e80c9141d1d89fea48bc94fb50310ab04af7416c5da10dbedf863be02"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\perk.msg",
+      "sha256": "34206021562b3f5ac1d7a159ec91e95e912ee54bcf96828e85dac6ea73953d66"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pipboy.msg",
+      "sha256": "77dc292122055351bc0fd534216a05b517c540ae8faf9c8081312c55ddb6722f"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\proto.msg",
+      "sha256": "6a7c6f2b0cb01435751ee42aa0ba9be0d9dfea3ffeb0950e0b0fc3f1f704c4d9"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pro_crit.msg",
+      "sha256": "3777cb8d5230b8c66d7b4e89ad943b53650da8af330ad04730644a5e985d7f57"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pro_item.msg",
+      "sha256": "79435ce3987a4d457c52641598286e551678afa58def1d59ce6bfec31dd72256"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pro_misc.msg",
+      "sha256": "dceb8d02817a3f852f89c579dd82544a510d79c411b5bf931603d6ef2bb8744f"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pro_scen.msg",
+      "sha256": "2d53cd510b25f5917c77902da4e550600da7ff3a6d21877475fd1dcee35ee9eb"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pro_tile.msg",
+      "sha256": "618af7d3ed8ec0c78a9e268a3f7f8642a66be3c1f67110bda1ad2de64a31d84c"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\pro_wall.msg",
+      "sha256": "b859ef4f6453f6a979198f1dde917a541145b51f92ce6512e28dde1c683ea8e6"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\p_party_orders.msg",
+      "sha256": "3506b300507a3df0918fc7d2cae1be331d437f7613affabd1e58abbc76bdceef"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\quests.msg",
+      "sha256": "57365f2b011971837f5dbd4b346a07e91b5d9123585524387ab78e59cb504731"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\script.msg",
+      "sha256": "23d4014b9aff2f62b77ffaffc4b0a0991f34d3deeebb7c97adaac6c94a5e6065"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\scrname.msg",
+      "sha256": "f550d12edb05b7bed9509ab2688648ab74a8bf69346eeb85f78d6f0d7bc9b41b"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\ScrnSet.msg",
+      "sha256": "a6a2b91fdee369289a4f7631c88f999ac74cddc8ef416100b3ab8ba4e466a89b"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\skill.msg",
+      "sha256": "8baf1dd828593c711d6f30de0dfb5d6ef1839e222cdbbce39f6a7201f44dc6ec"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\skilldex.msg",
+      "sha256": "5ab7b5c1256f2068794942d6d95654d4413e34fb138714568712ac6d824946c0"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\stat.msg",
+      "sha256": "8da9dc3e9126ae70e93917110a6a1014057ca36f9abf089dc846585c54ae2777"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\trait.msg",
+      "sha256": "0b5a57642ba3e96d5ccd834c5dff0d79ef36c26080f19a0c57e0197cc9910594"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\worldmap.msg",
+      "sha256": "0f9b13b1d3ced26ac95752aa811437c5a88e825f98b1ae9f8c332893deee20e3"
+    },
+    {
+      "path": "TEXT\\Korean\\GAME\\worldmp.msg",
+      "sha256": "ea63504bb6d72a3074b7c194b333a7644909a2050f321c8f38036784607262f3"
+    },
+    {
+      "path": "korean.ini",
+      "sha256": "5be0487e10f7c3fd6c58096fac4fa250cd641f3f508d9c9b51026cee7b227ef3"
+    }
+  ]
+}
