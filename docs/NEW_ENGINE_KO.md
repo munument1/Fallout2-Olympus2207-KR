@@ -1,22 +1,24 @@
 # Olympus 2207 독립형 한국어 텍스트 엔진 설치 안내
 
-## 기존 설치 폴더에 바로 설치 (v1.2.1)
+**한국어 출력 엔진 v1.2.5 이상이 필요합니다.** Steam을 포함한 기존 설치 폴더를 지정할 수 있습니다.
 
-게임을 종료한 뒤 **Steam을 포함한 기존 게임·모드 설치 폴더**를 선택하세요. 시험용 전체 복사본 준비는 선택 사항입니다. 번역 ZIP을 먼저 적용하고 [한국어 출력 엔진 최신 정식 설치기](https://github.com/munument1/Fallout2-Korean-Text-Engine/releases/latest)를 실행하세요. 변경되는 원본 파일만 `korean_engine_backup_v2`에 자동 백업하며 같은 폴더에서 복구할 수 있습니다.
+## 설치
 
-이 안내는 v1.2.1 공개 베타 이후의 방법입니다. 기존 게임별 --profile 방식과 중국어 수정 EXE/DLL 입력은 필요하지 않습니다.
+1. Olympus 2207 **1.2 원본 및 1.2a 패치**를 설치하고 게임을 종료합니다.
+2. [한국어 번역 데이터 ZIP](https://github.com/munument1/Fallout2-Olympus2207-KR/releases/download/v2026.10.17-native-beta.1/Fallout2-Olympus2207-KR-native-beta-data.zip)을 **olympus.exe가 있는 폴더**에 풉니다.
+3. [한국어 출력 엔진 v1.2.5](https://github.com/munument1/Fallout2-Korean-Text-Engine/releases/tag/v1.2.5)의 **Fallout2-Korean-Native-Setup.exe**를 실행해 같은 폴더를 지정합니다. 설치기가 한국어 설정을 적용합니다.
+4. **olympus.exe** 또는 기존 모드 런처로 실행합니다.
 
-## 설치 순서
+Olympus에 포함된 **Extended sfall 4.2.6**과 고해상도 패치 구성을 사용하세요. 설치기는 기존 sfall을 유지하고 새 실행 파일의 CRC를 등록합니다.
 
-1. 대상 모드와 번역 ZIP의 기준 버전을 일치시킵니다. 게임 위치는 **olympus.exe가 있는 게임 폴더**입니다.
-2. **먼저** 번역 데이터 ZIP을 게임 실행 폴더에 적용해 data/text/korean 등의 파일을 배치합니다. ZIP에 엔진 바이너리나 게임 원본 EXE, DAT, INT가 없어야 합니다.
-3. [최신 설치기](https://github.com/munument1/Fallout2-Korean-Text-Engine/releases/latest)에서 Fallout2-Korean-Native-Setup.exe를 실행하고 폴더 하나만 고릅니다. 호환 EXE 전체를 Watcom ABI 구조로 검사하며 게임 종류는 선택하지 않습니다.
-4. 설치가 끝나면 기존 게임 실행기로 실행합니다.
-5. 메뉴, 대화, 줄바꿈, 전투, 저장/불러오기를 점검합니다.
+## 구형 한패나 이전 엔진에서 업데이트
 
-## 모드 전용 제한
+- 구형 **KR1.1**을 적용했다면 원본 **olympus.exe**, **ddraw.dll**, **ddraw.ini**와 고해상도 패치 구성을 복구한 뒤 위 순서대로 설치하세요. 원본을 별도 폴더에 새로 설치해 적용할 수도 있습니다.
+- 이전 독립형 엔진을 설치했다면 설치기의 **복구** 기능을 먼저 실행하고 v1.2.5를 적용하세요.
 
-Olympus의 Extended sfall 4.2.6을 유지하세요. 설치기는 여러 CFG 중 실제 활성 ConfigFile=olympus.cfg를 확인하고, sfall ExtraCRC의 기존 EXE 크기 항목도 보존합니다. 일반 sfall로 단순 교체하면 충돌이 발생합니다.
+## 확인 범위
+
+Olympus 2207 1.2a에서 메인 메뉴, 캐릭터 선택, 첫 대화와 시작 튜토리얼 안내창 두 개를 확인했습니다. 긴 안내문도 여러 줄로 표시됩니다.
 
 ## 파일 보존과 복구
 
@@ -25,9 +27,5 @@ Olympus의 Extended sfall 4.2.6을 유지하세요. 설치기는 여러 CFG 중 
 - 설치기는 전체 게임을 복제하지 않고 수정 대상 원본 파일만 korean_engine_backup_v2에 저장합니다. 바이너리 EXE를 변경하므로 최소 원본 파일 복구 기록은 유지합니다.
 - 사용자가 별도로 교체한 sfall DLL은 엔진 자체의 --restore로 돌아오지 않습니다. 그런 변경은 별도의 원본 DLL 보관이 필요합니다.
 - 기존 번역 내용과 CP949 텍스트는 다시 번역하거나 일괄 치환하지 않습니다. UTF-8로 저장된 일부 파일은 ZIP 빌드 시 손실 없는 CP949 변환을 수행합니다.
-
-## 검증 단계
-
-실행 파일 구조, 짧은 기동, 기본 한국어 렌더링, SHA-256 기반 복구를 확인했습니다. 모든 모드 버전의 전체 스크립트, 긴 대화, 전투와 저장/불러오기를 전수 검증한 것은 아닙니다.
 
 [구형 설치 방식 보관본](LEGACY_INSTALLATION_KO.md)
