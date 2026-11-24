@@ -2,7 +2,11 @@
 
 이 저장소는 한국어 번역 데이터를 배포합니다. 한국어 출력에는 **엔진 v1.2.5 이상**이 필요합니다.
 
-## 설치
+## Nexus 통합 설치기
+
+[Nexus 통합 설치기](https://www.nexusmods.com/fallout2/mods/191?tab=files)를 받으면 번역 데이터와 출력 엔진을 한 번에 설치할 수 있습니다. 설치기에서 **olympus.exe가 있는 폴더**를 선택하세요.
+
+## GitHub 번역 ZIP으로 설치
 
 1. Olympus 2207 **1.2 원본 및 1.2a 패치**를 설치하고 게임을 종료합니다.
 2. [한국어 번역 데이터 ZIP](https://github.com/munument1/Fallout2-Olympus2207-KR/releases/download/v2026.10.17-native-beta.1/Fallout2-Olympus2207-KR-native-beta-data.zip)을 **olympus.exe가 있는 폴더**에 풉니다.
