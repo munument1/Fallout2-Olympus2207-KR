@@ -2,9 +2,9 @@
 
 **한국어 출력 엔진 v1.2.5 이상이 필요합니다.** Steam을 포함한 기존 설치 폴더를 지정할 수 있습니다.
 
-## Nexus 통합 설치기
+## Nexus에서 ZIP 하나로 설치
 
-[Nexus 통합 설치기](https://www.nexusmods.com/fallout2/mods/191?tab=files)를 받으면 번역 데이터와 출력 엔진을 한 번에 설치할 수 있습니다. 설치기에서 **olympus.exe가 있는 폴더**를 선택하세요.
+[Nexus 한글 패치 ZIP](https://www.nexusmods.com/fallout2/mods/191?tab=files)을 **olympus.exe가 있는 Olympus 2207 1.2a 폴더**에 풀고 **olympus.exe**를 실행하세요. ZIP에는 이 방식에 필요한 번역과 한국어 출력 파일이 함께 들어 있습니다. 구형 패치로 실행 파일이 바뀌었다면 먼저 원본으로 복구하세요.
 
 ## GitHub 번역 ZIP으로 설치
 

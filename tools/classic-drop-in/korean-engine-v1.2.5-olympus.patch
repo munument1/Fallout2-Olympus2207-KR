@@ -1,0 +1,32 @@
+diff --git a/src/native_font_hooks.cpp b/src/native_font_hooks.cpp
+index a7e7247..eb36349 100644
+--- a/src/native_font_hooks.cpp
++++ b/src/native_font_hooks.cpp
+@@ -444,9 +444,7 @@ __declspec(naked) void __cdecl OlympusScriptFormatWrap() {
+     }
+ }
+ 
+-extern "C" __declspec(dllexport) void __cdecl InitKoreanEngine() {
+-    bool olympus = false;
+-    if (!inGame(olympus)) return;
++static void installKoreanEngine(bool olympus) {
+     if (InterlockedCompareExchange(&installed, 1, 0) != 0) return;
+     InitFont();
+     InstallKoreanAppearanceHook();
+@@ -513,3 +511,16 @@ extern "C" __declspec(dllexport) void __cdecl InitKoreanEngine() {
+             OutputDebugStringA("Fallout2 Korean Engine: Olympus script window wrap hook was not installed\n");
+     }
+ }
++
++extern "C" __declspec(dllexport) void __cdecl InitKoreanEngine() {
++    bool olympus = false;
++    if (inGame(olympus)) installKoreanEngine(olympus);
++}
++
++// Extended sfall checks the original Olympus executable CRC before startup.
++extern "C" __declspec(dllexport) void __cdecl InitOlympusKoreanFromSfall() {
++    constexpr BYTE host[] = {0x83, 0x3D, 0xDC, 0x94, 0x51, 0x00, 0x00};
++    if (reinterpret_cast<uintptr_t>(GetModuleHandleW(nullptr)) == kGameBase &&
++        std::memcmp(reinterpret_cast<const BYTE*>(kOlympusStartupHook), host, sizeof(host)) == 0)
++        installKoreanEngine(true);
++}

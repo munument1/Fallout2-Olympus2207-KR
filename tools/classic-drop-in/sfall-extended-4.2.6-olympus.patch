@@ -1,0 +1,157 @@
+diff --git a/sfall/CRC.cpp b/sfall/CRC.cpp
+index 82f9461..555d7b3 100644
+--- a/sfall/CRC.cpp
++++ b/sfall/CRC.cpp
+@@ -76,7 +76,7 @@ static DWORD crcInternal(BYTE* data, DWORD size) {
+ 	return crc ^ 0xffffffff;
+ }
+ 
+-void CRC(const char* filepath) {
++DWORD CRC(const char* filepath) {
+ 	char buf[512];
+ 	HANDLE h = CreateFileA(filepath, GENERIC_READ, FILE_SHARE_READ, 0, OPEN_EXISTING, 0, 0);
+ 	if (h == INVALID_HANDLE_VALUE) Fail("Cannot open fallout2.exe for CRC check.");
+@@ -119,6 +119,7 @@ void CRC(const char* filepath) {
+ 
+ 	CloseHandle(h);
+ 	delete[] bytes;
++	return crc;
+ }
+ 
+ }
+diff --git a/sfall/CRC.h b/sfall/CRC.h
+index 234aa1c..ddb28cd 100644
+--- a/sfall/CRC.h
++++ b/sfall/CRC.h
+@@ -19,6 +19,6 @@
+ namespace sfall
+ {
+ 
+-void CRC(const char* filepath);
++DWORD CRC(const char* filepath);
+ 
+ }
+diff --git a/sfall/ddraw.vcxproj b/sfall/ddraw.vcxproj
+index ea60f61..2b98531 100644
+--- a/sfall/ddraw.vcxproj
++++ b/sfall/ddraw.vcxproj
+@@ -116,7 +116,7 @@
+       <BufferSecurityCheck>false</BufferSecurityCheck>
+     </ClCompile>
+     <Link>
+-      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
++      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+       <DelayLoadDLLs>ws2_32.dll;d3d9.dll;d3dx9d_43.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+       <GenerateDebugInformation>true</GenerateDebugInformation>
+@@ -167,7 +167,7 @@
+       <AdditionalIncludeDirectories>$(DXSDK_DIR)Include\</AdditionalIncludeDirectories>
+     </ClCompile>
+     <Link>
+-      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
++      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+       <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+@@ -218,7 +218,7 @@
+       <AdditionalIncludeDirectories>$(DXSDK_DIR)Include\</AdditionalIncludeDirectories>
+     </ClCompile>
+     <Link>
+-      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
++      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+       <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+@@ -269,7 +269,7 @@
+       <AdditionalIncludeDirectories>$(DXSDK_DIR)Include\</AdditionalIncludeDirectories>
+     </ClCompile>
+     <Link>
+-      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
++      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+       <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+@@ -321,7 +321,7 @@
+       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+     </ClCompile>
+     <Link>
+-      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
++      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;Strmiids.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+       <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+diff --git a/sfall/main.cpp b/sfall/main.cpp
+index 10c2dba..d6c86a7 100644
+--- a/sfall/main.cpp
++++ b/sfall/main.cpp
+@@ -23,6 +23,7 @@
+ #include <algorithm>
+ #include <stdio.h>
+ #include <memory>
++#include <string>
+ 
+ #include "FalloutEngine\Fallout2.h"
+ #include "ModuleManager.h"
+@@ -261,6 +262,45 @@ static void CompatModeCheck(HKEY root, const char* filepath, int extra) {
+ 	}
+ }
+ 
++static std::wstring olympusFolder;
++
++static void LoadOlympusKoreanFont() {
++	const auto dllPath = olympusFolder + L"fallout2font.dll";
++	const HMODULE font = LoadLibraryExW(dllPath.c_str(), nullptr, LOAD_WITH_ALTERED_SEARCH_PATH);
++	const auto init = font ? reinterpret_cast<void (__cdecl*)()>(
++	    GetProcAddress(font, "InitOlympusKoreanFromSfall")) : nullptr;
++	if (init) init();
++	else MessageBoxW(nullptr, L"Cannot load the Olympus Korean font module.",
++	                 L"Olympus 2207 Korean", MB_OK | MB_ICONERROR);
++}
++
++static void ConfigureOlympusKorean() {
++	wchar_t file[MAX_PATH];
++	const DWORD size = GetModuleFileNameW(nullptr, file, MAX_PATH);
++	if (!size || size == MAX_PATH) return;
++	olympusFolder.assign(file, size);
++	olympusFolder.resize(olympusFolder.find_last_of(L"\\/") + 1);
++
++	const auto text = olympusFolder + L"data\\text\\korean\\dialog\\tiptext.msg";
++	if (GetFileAttributesW(text.c_str()) == INVALID_FILE_ATTRIBUTES) return;
++
++	char config[64];
++	if (!GetConfigString("Misc", "ConfigFile", "", config, sizeof(config)) ||
++	    _stricmp(config, "olympus.cfg") != 0) {
++		MessageBoxW(nullptr, L"Restore the original Olympus ddraw.ini and try again.",
++		            L"Olympus 2207 Korean", MB_OK | MB_ICONERROR);
++		return;
++	}
++	const auto cfg = olympusFolder + L"olympus.cfg";
++	if (GetFileAttributesW(cfg.c_str()) == INVALID_FILE_ATTRIBUTES ||
++	    !WritePrivateProfileStringW(L"system", L"language", L"korean", cfg.c_str())) {
++		MessageBoxW(nullptr, L"Cannot set the language in olympus.cfg.",
++		            L"Olympus 2207 Korean", MB_OK | MB_ICONERROR);
++		return;
++	}
++	LoadGameHook::OnAfterGameInit() += LoadOlympusKoreanFont;
++}
++
+ inline void SfallInit() {
+ 	// enabling debugging features
+ 	isDebug = (iniGetInt("Debugging", "Enable", 0, ::sfall::ddrawIni) != 0);
+@@ -272,7 +312,7 @@ inline void SfallInit() {
+ 	char filepath[MAX_PATH];
+ 	GetModuleFileName(0, filepath, MAX_PATH);
+ 
+-	CRC(filepath);
++	const DWORD gameCrc = CRC(filepath);
+ 
+ 	if (!isDebug || !iniGetInt("Debugging", "SkipCompatModeCheck", 0, ::sfall::ddrawIni)) {
+ 		int is64bit;
+@@ -344,6 +384,7 @@ defaultIni:
+ 	}
+ 
+ 	InitModules();
++	if (gameCrc == 0xF8D4E950) ConfigureOlympusKorean();
+ }
+ 
+ }
